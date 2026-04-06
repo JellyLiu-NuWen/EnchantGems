@@ -11,24 +11,12 @@
 - 菜单关闭或玩家掉线时自动返还未使用的物品
 - 支持通过 `config.yml`、`gems.yml`、`menu.yml` 自定义语言、宝石定义和菜单布局
 
-## 运行环境
-
-- Paper `1.21.x`
-- Java `21`
-
 ## 指令
 
-`/gem forge`
-打开宝石强化台。
-
-`/gem upgrade`
-与 `/gem forge` 相同，用于打开强化台。
-
-`/gem give <玩家> <附魔ID> <等级>`
-为指定玩家发放一个附魔宝石。
-
-`/gem reload`
-重载插件配置文件。
+- `/gem forge`：打开宝石强化台
+- `/gem upgrade`：与 `/gem forge` 相同，用于打开强化台
+- `/gem give <玩家> <附魔ID> <等级>`：为指定玩家发放一个附魔宝石
+- `/gem reload`：重载插件配置文件
 
 插件别名：`/gemenhancer`
 
@@ -68,6 +56,11 @@
 
 默认已预设常见护甲、武器、工具、弓弩、三叉戟、狼牙棒与钓鱼竿附魔，具体列表见 [`gems.yml`](src/main/resources/gems.yml)。
 
+## 运行环境
+
+- Paper `1.21.x`
+- Java `21`
+
 ## 构建
 
 ```bash
@@ -85,3 +78,9 @@ target/EnchantGems-1.0-shaded.jar
 1. 将构建后的 jar 放入服务器的 `plugins/` 目录。
 2. 启动服务器生成配置文件。
 3. 按需修改配置后执行 `/gem reload` 或重启服务器。
+
+## 定制与联系
+
+如果你需要定制插件，或修改当前插件逻辑，可以联系 `Nu_Wen`。
+
+- 微信：`Nu_Wen`
