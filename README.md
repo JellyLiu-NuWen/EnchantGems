@@ -2,16 +2,6 @@
 
 `EnchantGems` 是一个基于 Paper 的 Minecraft 插件，用宝石道具为武器、工具和护甲附加或提升附魔等级。
 
-## 界面预览
-
-### 强化台界面
-
-![强化台界面](docs/images/forge-menu.png)
-
-### 宝石展示
-
-![宝石展示](docs/images/gem-tooltip.png)
-
 ## 功能概览
 
 - 通过 `/gem forge` 或 `/gem upgrade` 打开强化台 GUI
@@ -58,6 +48,16 @@
 
 [`menu.yml`](src/main/resources/menu.yml)
 定义强化台标题、布局和图标显示。
+
+## 界面预览
+
+### 强化台界面
+
+![强化台界面](docs/images/forge-menu.png)
+
+### 宝石展示
+
+![宝石展示](docs/images/gem-tooltip.png)
 
 ## 支持的附魔输入
 
