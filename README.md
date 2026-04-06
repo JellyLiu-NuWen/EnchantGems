@@ -85,7 +85,3 @@ target/EnchantGems-1.0-shaded.jar
 1. 将构建后的 jar 放入服务器的 `plugins/` 目录。
 2. 启动服务器生成配置文件。
 3. 按需修改配置后执行 `/gem reload` 或重启服务器。
-
-## 当前仓库说明
-
-这个仓库默认只提交源码与配置，不提交 `.idea/` 和 `target/` 构建输出。
