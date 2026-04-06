@@ -1,0 +1,32 @@
+prefix: "&8[&bEnchantGems&8] "
+
+messages:
+  no_permission: "&c你没有权限执行此操作。"
+  only_player: "&c该命令只能由玩家执行。"
+  player_not_found: "&c未找到玩家：{player}"
+  invalid_power: "&c强化等级必须是大于 0 的整数。"
+  unknown_enchantment: "&c未知附魔：{enchantment}"
+  gem_disabled: "&c该附魔的宝石当前已被禁用：{enchantment}"
+  gem_create_failed: "&c宝石创建失败。"
+  gem_given_sender: "&a已将 &f{enchantment_name} &a宝石发送给玩家 &f{player}&a。"
+  gem_received_target: "&a你收到了 &f{enchantment_name} &a宝石，强化等级为 &f+{power}&a。"
+  upgrade_success: "&a武器强化成功。"
+  upgrade_fail_max_level: "&c无法强化：已达到最大等级。"
+  upgrade_fail_conflict: "&c无法强化：附魔存在冲突。"
+  missing_weapon: "&c请放入武器。"
+  invalid_gem: "&c请放入有效宝石。"
+  gem_not_applicable: "&c该宝石不能用于这把武器。"
+  invalid_item: "&c请放入有效的武器和宝石。"
+  inventory_full_drop: "&e你的背包已满，物品已掉落在脚下。"
+  reload_success: "&a插件配置已热重载。"
+  reload_failed: "&c插件热重载失败，请查看控制台。"
+
+commands:
+  gem:
+    help_title: "&6&m----------------------------------------"
+    help_subtitle: "&eEnchantGems 指令帮助"
+    usage_give: "&e/gem give <玩家> <附魔> <强化等级> &7- 给指定玩家发放一颗附魔宝石"
+    usage_upgrade: "&e/gem upgrade &7- 打开武器强化菜单"
+    usage_forge: "&e/gem forge &7- 打开武器强化菜单"
+    usage_reload: "&e/gem reload &7- 热重载插件配置文件"
+    help_footer: "&6&m----------------------------------------"

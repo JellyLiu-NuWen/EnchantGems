@@ -1,0 +1,16 @@
+name: EnchantGems
+version: '1.0'
+main: org.nuwen.EnchantGems.GemEnhancerPlugin
+api-version: '1.21'
+authors: [Nu_Wen]
+commands:
+  gem:
+    aliases: [gemenhancer]
+    usage: /gem <give|upgrade|forge|reload>
+permissions:
+  gemenhancer.use:
+    default: true
+  gemenhancer.give:
+    default: op
+  gemenhancer.reload:
+    default: op

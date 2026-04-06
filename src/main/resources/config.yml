@@ -1,0 +1,8 @@
+# 开发者: Nu_Wen
+version: "1.0"
+
+language: "zh_CN"
+
+sounds:
+  success: "minecraft:entity.player.levelup"
+  fail: "minecraft:entity.villager.no"

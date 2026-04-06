@@ -1,0 +1,136 @@
+default_gem:
+  material: "AMETHYST_SHARD"
+  name: "&b{enchant_name}宝石 &7+{power}"
+  lore:
+    - "&7附魔类型: &f{enchant_name}"
+    - "&7适用装备: &f{applicable_items}"
+    - "&7强化等级: &a+{power}"
+  glint: true
+
+gems:
+  PROTECTION_ENVIRONMENTAL:
+    display_name: "保护"
+    max_level: 4
+  PROTECTION_FIRE:
+    display_name: "火焰保护"
+    max_level: 4
+  PROTECTION_FALL:
+    display_name: "摔落保护"
+    max_level: 4
+  PROTECTION_EXPLOSIONS:
+    display_name: "爆炸保护"
+    max_level: 4
+  PROTECTION_PROJECTILE:
+    display_name: "弹射物保护"
+    max_level: 4
+  OXYGEN:
+    display_name: "水下呼吸"
+    max_level: 3
+  WATER_WORKER:
+    display_name: "水下速掘"
+    max_level: 1
+  THORNS:
+    display_name: "荆棘"
+    max_level: 3
+  DEPTH_STRIDER:
+    display_name: "深海探索者"
+    max_level: 3
+  FROST_WALKER:
+    display_name: "冰霜行者"
+    max_level: 2
+  BINDING_CURSE:
+    display_name: "绑定诅咒"
+    max_level: 1
+  DAMAGE_ALL:
+    display_name: "锋利"
+    max_level: 5
+  DAMAGE_UNDEAD:
+    display_name: "亡灵杀手"
+    max_level: 5
+  DAMAGE_ARTHROPODS:
+    display_name: "节肢杀手"
+    max_level: 5
+  KNOCKBACK:
+    display_name: "击退"
+    max_level: 2
+  FIRE_ASPECT:
+    display_name: "火焰附加"
+    max_level: 2
+  LOOT_BONUS_MOBS:
+    display_name: "抢夺"
+    max_level: 3
+  SWEEPING_EDGE:
+    display_name: "横扫之刃"
+    max_level: 3
+  ARROW_DAMAGE:
+    display_name: "力量"
+    max_level: 5
+  ARROW_KNOCKBACK:
+    display_name: "冲击"
+    max_level: 2
+  ARROW_FIRE:
+    display_name: "火矢"
+    max_level: 1
+  ARROW_INFINITE:
+    display_name: "无限"
+    max_level: 1
+  DIG_SPEED:
+    display_name: "效率"
+    max_level: 5
+  SILK_TOUCH:
+    display_name: "精准采集"
+    max_level: 1
+  DURABILITY:
+    display_name: "耐久"
+    max_level: 3
+  LOOT_BONUS_BLOCKS:
+    display_name: "时运"
+    max_level: 3
+  LUCK:
+    display_name: "海之眷顾"
+    max_level: 3
+  LURE:
+    display_name: "饵钓"
+    max_level: 3
+  LOYALTY:
+    display_name: "忠诚"
+    max_level: 3
+  IMPALING:
+    display_name: "穿刺"
+    max_level: 5
+  RIPTIDE:
+    display_name: "激流"
+    max_level: 3
+  CHANNELING:
+    display_name: "引雷"
+    max_level: 1
+  MULTISHOT:
+    display_name: "多重射击"
+    max_level: 1
+  QUICK_CHARGE:
+    display_name: "快速装填"
+    max_level: 3
+  PIERCING:
+    display_name: "穿透"
+    max_level: 4
+  DENSITY:
+    display_name: "致密"
+    max_level: 5
+  BREACH:
+    display_name: "破甲"
+    max_level: 4
+  WIND_BURST:
+    display_name: "风爆"
+    max_level: 3
+  MENDING:
+    display_name: "经验修补"
+    max_level: 1
+  VANISHING_CURSE:
+    display_name: "消失诅咒"
+    max_level: 1
+  SOUL_SPEED:
+    display_name: "灵魂疾行"
+    max_level: 3
+  SWIFT_SNEAK:
+    display_name: "迅捷潜行"
+    max_level: 3

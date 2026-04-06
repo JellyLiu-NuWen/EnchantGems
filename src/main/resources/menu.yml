@@ -1,0 +1,66 @@
+Title:
+  - "&8武器强化台"
+
+Layout:
+  - "##A#B#C##"
+  - "##`Tool`#`Confirm`#`Gem`##"
+  - "##D#E#F##"
+
+Icons:
+  "#":
+    display:
+      material: "BLACK_STAINED_GLASS_PANE"
+      name: " "
+
+  "A":
+    display:
+      material: "DIAMOND_SWORD"
+      name: "&b&l武器槽"
+      lore:
+        - "&7将需要强化的武器或工具"
+        - "&7放入正下方的槽位中"
+
+  "B":
+    display:
+      material: "ENCHANTED_BOOK"
+      name: "&a&l强化说明"
+      lore:
+        - "&7左侧放武器，右侧放宝石"
+        - "&7点击下方铁砧确认强化"
+
+  "C":
+    display:
+      material: "AMETHYST_SHARD"
+      name: "&d&l宝石槽"
+      lore:
+        - "&7将强化宝石"
+        - "&7放入正下方的槽位中"
+
+  "Tool":
+    feature: "tool-slot"
+
+  "Gem":
+    feature: "gem-slot"
+
+  "Confirm":
+    feature: "confirm"
+    display:
+      material: "ANVIL"
+      name: "&a&l确认强化"
+      lore:
+        - "&7点击后尝试进行强化。"
+
+  "D":
+    display:
+      material: "CYAN_STAINED_GLASS_PANE"
+      name: "&b武器放这里"
+
+  "E":
+    display:
+      material: "LIME_STAINED_GLASS_PANE"
+      name: "&a点击上方铁砧确认"
+
+  "F":
+    display:
+      material: "MAGENTA_STAINED_GLASS_PANE"
+      name: "&d宝石放这里"
