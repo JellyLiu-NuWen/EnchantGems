@@ -2,6 +2,12 @@
 
 `EnchantGems` 是一个基于 Paper 的 Minecraft 插件，用宝石道具为武器、工具和护甲附加或提升附魔等级。
 
+## 定制与联系
+
+如果你需要定制插件，或修改当前插件逻辑，可以联系 `Nu_Wen`。
+
+- 微信：`Nu_Wen`
+
 ## 功能概览
 
 - 通过 `/gem forge` 或 `/gem upgrade` 打开强化台 GUI
@@ -78,9 +84,3 @@ target/EnchantGems-1.0-shaded.jar
 1. 将构建后的 jar 放入服务器的 `plugins/` 目录。
 2. 启动服务器生成配置文件。
 3. 按需修改配置后执行 `/gem reload` 或重启服务器。
-
-## 定制与联系
-
-如果你需要定制插件，或修改当前插件逻辑，可以联系 `Nu_Wen`。
-
-- 微信：`Nu_Wen`
